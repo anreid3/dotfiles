@@ -23,3 +23,4 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 echo "SSH key has been installed and added to the SSH agent"
+ssh ubuntu@ec2-54-90-66-38.compute-1.amazonaws.com
